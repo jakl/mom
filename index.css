@@ -1,11 +1,24 @@
+body,a {
+  background-color: #112211;
+  color: lightpink;
+}
 h1,h2 {
   text-align: center;
 }
+h3 {
+  margin: 25px;
+}
 .album {
+  margin-top: 25px;
+  margin-bottom: 25px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
-  grid-gap: 1rem;
+  grid-gap: 10px;
 }
 img {
   width: 100%;
+}
+.footer {
+  margin: 25px;
+  margin-bottom: 250px;
 }
