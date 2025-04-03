@@ -1,0 +1,11 @@
+h1,h2 {
+  text-align: center;
+}
+.album {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
+  grid-gap: 1rem;
+}
+img {
+  width: 100%;
+}
